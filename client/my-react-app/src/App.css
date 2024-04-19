@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+App {
+  background:'blue';
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'VT323', monospace;
+}
+
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#p1 {
+  width:100px;
+  height:100px;
+}
+
+.p1Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+/*   background: red; */
+}
+
+#p1Name {
+  font-size: 30px;
+}
+
+#p1Health {
+  font-size: 50px;
+}
+
+#p2{
+  width:100px;
+  height:100px;
+}
+
+
+.p2Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+/*   background: red; */
+}
+
+#p2Name {
+  font-size: 30px;
+}
+
+#p2Health {
+  font-size: 50px;
+}
+
+.playerControls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.AttackDiv{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+/*   background: blue; */
+}
+
+.HealDiv {
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+/*   background: yellow; */
+}
+
+#attack {
+  height: 30px;
+  width: 60px;
+  border-radius: 50px;
+  background: #FFFF01;
+}
+
+#heal {
+  height: 30px;
+  width: 60px;
+  border-radius: 50px;
+  background: #7DFFFF;
+}
+
+#play {
+  height: 50px;
+  width: 120px;
+  border-radius: 20px;
+/*   border:none; */
+  background: #02cf02;
+  outline: none;
+  color: white;
+}
+
+#result {
+  font-size: 50px;
+  color : #3dff3d;
+}
+
+#winner {
+  font-size: 40px;
+  color: red;
+}
